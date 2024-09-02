@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FASYA JOY</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">MLBB JOY</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="karakter.html">Characters</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <a href="https://play.google.com/store/apps/details?id=com.mobile.legends" class="download-button">Ayo Mainkan!</a>
+    </header>
+
+    <section id="hero" class="hero">
+        <video autoplay muted loop class="hero-video">
+            <source src="joy.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="overlay">
+            <button class="cta-button" id="watchTrailerBtn">Tonton Trailer</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Kinderfer program. Semua hak cipta dilindugi.</p>
+    </footer>
+
+    <script>
+        document.getElementById('watchTrailerBtn').addEventListener('click', function() {
+            window.location.href = 'https://youtu.be/39D5TqACTn0?si=nQfaROJXSuMyd0nS';
+        });
+    </script>
+</body>
+</html>
